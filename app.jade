@@ -1,0 +1,9 @@
+body
+  +theInput
+
+
+template(name="theInput")
+  .container.col-lg-2
+  .container.col-lg-8
+      textarea#theInput.form-control.inputWithMargin(rows="15", name='theCode', type='textarea', placeholder='Input')
+      textarea#theOutput.form-control.outputWithMargin(rows="15", name='theCode', type='textarea', placeholder='Output')
